@@ -1,0 +1,185 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+.packages
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.firebaserc
+firebase.json
+pubspec.lock
+/build/
+/bin/cache/
+/bin/cache/pkg/
+/bin/cache/dart-sdk/
+/bin/cache/flutter_driver_sdk/
+
+# Project-specific paths
+/.dart_tool/
+/.pub/
+/coverage/
+/test/**/data/*
+/test/**/goldenfiles/*
+/integration_test/**/screenshot.png
+
+# Packages
+*.tar.gz
+*.zip
+
+# Coverage
+coverage/
+
+# Server-side encryption
+/firestore.key
+/.firebaserc
+firebase.json
+.firebase/
+
+# iOS
+/ios/Flutter/flutter_assets/
+/ios/Flutter/App.framework/flutter_assets
+/ios/Flutter/Frameworks/
+/ios/Flutter/App.framework/
+/ios/Pods/
+/ios/.symlinks/
+/ios/build/
+/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+/ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/contents.xcworkspacedata
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/gradle/wrapper/dists/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/**/GeneratedPluginRegistrant.java
+/android/**/debug/AndroidManifest.xml
+
+# Web
+/web/build/
+
+# Linux
+/linux/build/
+/linux/x64/
+/linux/clang/
+/linux/flutter/ephemeral/
+/build/linux/
+
+# macOS
+/macos/Flutter/ephemeral/
+/macos/Pods/
+/macos/build/
+
+# Windows
+/windows/Flutter/ephemeral/
+/windows/runner/Release/
+/build/windows/
+
+# Assets (commented out to preserve important assets)
+# /assets/images/
+# /assets/icons/
+
+# Secrets
+.env
+.env.local
+.env.production
+.env.development
+**/secrets/**
+
+# Temporary files
+tmp/
+temp/
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/gradle/wrapper/dists/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/**/GeneratedPluginRegistrant.java
+/android/**/debug/AndroidManifest.xml
+
+# iOS
+/ios/Flutter/flutter_assets/
+/ios/Flutter/App.framework/flutter_assets
+/ios/Flutter/Frameworks/
+/ios/Flutter/App.framework/
+/ios/Pods/
+/ios/.symlinks/
+/ios/build/
+/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+/ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/contents.xcworkspacedata
+
+# Web
+/web/build/
+
+# Linux
+/linux/build/
+/linux/x64/
+/linux/clang/
+/linux/flutter/ephemeral/
+/build/linux/
+
+# macOS
+/macos/Flutter/ephemeral/
+/macos/Pods/
+/macos/build/
+
+# Windows
+/windows/Flutter/ephemeral/
+/windows/runner/Release/
+/build/windows/
+
+# Assets (preserved to maintain important assets)
+# /assets/images/
+# /assets/icons/
+
+# Secrets
+.env
+.env.local
+.env.production
+.env.development
+**/secrets/**
+
+# Temporary files
+tmp/
+temp/
+
+# Gradle
+.gradle/
+gradle.properties
+.gradle/daemon/
+
+# Keystore properties
+**/android/key.properties
+**/android/**/google-services.json
+
+# Coverage
+test_coverage/
+coverage/
+
+# Packages
+*.tar.gz
+*.zip

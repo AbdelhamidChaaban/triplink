@@ -1,0 +1,18 @@
+{
+  "name": "triplink",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Triplink Flutter Web Application",
+  "scripts": {
+    "dev": "flutter run -d chrome",
+    "build": "flutter build web --release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^11.7.3",
+    "firestore": "^1.1.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
