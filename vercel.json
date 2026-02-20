@@ -1,21 +1,17 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "web/**",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build/web"
-      }
-    }
-  ],
+  "buildCommand": "flutter build web --release",
+  "outputDirectory": "build/web",
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ],
-  "github": {
-    "silent": true
-  }
+  "builds": [
+    {
+      "src": "build/web/**/*",
+      "use": "@vercel/static"
+    }
+  ]
 }

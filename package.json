@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "flutter run -d chrome",
     "build": "flutter build web --release",
+    "vercel-build": "flutter build web --release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
