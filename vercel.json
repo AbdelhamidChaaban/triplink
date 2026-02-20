@@ -1,7 +1,20 @@
 {
   "version": 2,
-  "buildCommand": "flutter build web --release",
-  "outputDirectory": "build/web",
+  "builds": [
+    {
+      "src": "pubspec.yaml",
+      "use": "@vercel/flutter",
+      "config": { 
+        "framework": "flutter"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -20,12 +33,6 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ]
 }
